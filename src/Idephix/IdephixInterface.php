@@ -15,7 +15,7 @@ interface IdephixInterface
      * @param InputInterface $input
      * @return \Idephix\IdephixInterface
      */
-    public function __construct(array $targets = null, SshClient $sshClient = null, OutputInterface $output = null, InputInterface $input = null);
+    public function __construct(array $targets = array(), SshClient $sshClient = null, OutputInterface $output = null, InputInterface $input = null);
 
     /**
      * Add a Command to the application.

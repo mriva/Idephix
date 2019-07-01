@@ -12,7 +12,7 @@ class CLISshProxy extends BaseProxy
     protected $user = '';
     protected $password = '';
     protected $privateKeyFile = null;
-    protected $timeout = 1200;
+    protected $timeout = 2400;
 
     private function canConnect()
     {
